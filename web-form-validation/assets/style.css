@@ -1,0 +1,54 @@
+Form Action - https://brucebauer.info/assets/ITEC3650/datadump.php
+
+form
+{
+    align:"center";
+}
+
+input {
+ 
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+}
+
+label {
+	 
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+
+}
+
+form{  
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+}
+
+Select {
+	 
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+
+}
+
+
+
+
+action {
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+	padding: 5px;
+	font-weight: bold;
+}
