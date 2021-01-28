@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html>
+<body>
+<h1>New Patient Registion</h1>
+
+<p> Please Fill Out Form Below </p>
+
+
+
+<body><form action="/action_page.php">
+ 
+<form action="/action_page.php">
+  <label for="username">First Name:</label>
+  <input type="text" id="username" name="firstname" required>
+  
+</form>
+
+  
+  <label for="fname">Middle intial:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+
+
+<form action="/action_page.php">
+  <label for="username">Last Name:</label>
+  <input type="text" id="username" name="lastname" required>
+  
+</form>
+
+ <form action="/action_page.php">
+  Date: <input type=" Birth date" id="myDate" name="date" required>
+  
+</form>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myDate").required;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+  
+  <form action="/action_page.php">
+  <label for="username">Email:</label>
+  <input type="text" id="username" name="email" required>
+ 
+</form>
+
+  
+<form action="/action_page.php">
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="male">Male<label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="female">Female</label><br>
+  <input type="radio" id="other" name="gender" value="other">
+  <label for="other">N/A</label><br><br>
+ 
+ <label for="fname">Height(inches):</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+   <label for="fname">Weight(pounds):</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+  <form action="/action_page.php">
+  <label for="phone">Enter a phone number:</label><br><br>
+  <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+ 
+</form>
+
+  <form action="/action_page.php">
+  <label for="phone">Enter a Credit Card number:</label><br><br>
+  <input type="tel" id="credit" name="credit" placeholder="####" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br><br>
+
+ 
+</form>
+
+<form action="/action_page.php">
+  <label for="Marital Status">MaritalStatus:</label>
+  <select id="Single returns" name="S">
+    <option value="Single returns">S</option>
+    <option value="Married returns">M</option>
+    <option value="Divorced returns" selected>D</option>
+    <option value="Legally Separated ">L</option>
+   <option value="Widowed ">W</option>
+  </select>
+
+</form>
+
+ 
+  <label for="fname">Adress:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <label for="fname">City/State/Zip:</label>
+  <input type="text" id="fname" name="fname"><br><br></form>
+<form action="/action_page.php">
+  <label for="Select a State">Select A State:</label>
+  <select id="Select A State" name="Select A state">
+    <option value="Single returns">S</option>
+    <option value="Married returns">M</option>
+    <option value="Divorced returns" selected>D</option>
+    <option value="Legally Separated ">L</option>
+   <option value="Widowed ">W</option>
+  </select>
+
+</form>
+
+
+<form action="/action_page.php">
+  Taking Medication
+  <input type="radio" id="male" name="gender" value="male">
+  <label for="Yes">Y</label><br>
+  <input type="radio" id="female" name="gender" value="female">
+  <label for="No">N</label><br>
+
+
+<form action="/action_page.php">
+<label for="w3review">If yes, list medications here:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+ 
+  </textarea>
+  <br><br>
+
+
+<input type="submit" value="Submit Patient Form">
+
+
+
+
+
+</body>
+</html>
