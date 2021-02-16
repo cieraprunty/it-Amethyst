@@ -1,0 +1,49 @@
+/* ---------------Box Sizing----------------- */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ---------------Utility Styles----------------- */
+
+.container{
+  width: 80vw;
+  margin: 30px auto;
+  max-width:1000px
+}
+
+/* Responsive Image */
+img{
+  max-width:100%;
+  height:auto;
+}
+
+/* ---------------Global Styles----------------- */
+
+body{
+  font-family: 'Ranchers', cursive;
+  margin:0;
+}
+
+header.primary{
+  background-color:#F2E205; 
+  background-image: 
+   text-align:center;
+  color:rgb(53, 141, 218);
+    text-shadow:;
+  /*Longform */
+    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;
+/*Shorthand Different Values Top / Right /Bottom /Left*/
+  padding: 40px 40px 60px 40px;
+/*shorthand Same Values*/
+  padding:40px;
+}
+  
