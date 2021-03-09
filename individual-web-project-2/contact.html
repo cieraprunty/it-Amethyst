@@ -3,61 +3,104 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <div class="topnav-centered">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+<!-- Top navigation -->
+<div class="topnav">
+  <!-- Centered link -->
+  <div class="topnav-centered">
     <a href="index.html" class="active">Home</a>
   </div>
-  <h1> HOW TO KEEP IN TOUCH </h1>
-<style>
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-  margin: 5px 2px;
-}
+  
+  <!-- Left-aligned links (default) -->
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="about.html">About</a>
+  </div>
+  
+</div>
+<!--Content Below-->
 
-.fa:hover {
-    opacity: 0.7;
-}
+<p><a href="index.html">
+<img src="assets/img/Logo.JPG" alt="Facebook" width="100" height="132" >
+</a></p>
 
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
+  
+  <h1>HOW TO KEEP IN TOUCH</h1>
+  
+  </head>
+  
+<div class="container">
+  <form action="action_page.php">
 
 
+<form action="/action_page.php" method="get">
+ <label for="LastName" class="formlabel"><strong>Full Name:</strong> </label>
+<input type="text" id="LastName" name="LastName" size="10" maxlength="20"
+         data-rule-required="true"  data-msg-required="Last Name is Required" >
+<label for="LastName" class="error"></label>
+</br>
 
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
- 
- 
-</style>
-</head>
-<body>
+   
+    <label for="email" class="formlabel"><strong>Email:</strong> </label>
+<input type="text" id="email" name="fname" size="10" maxlength="20"
+          data-rule-required="true"  data-msg-required="Email is Required" >
+<label for="email" class="error"></label>
+<br/>
+    
+    <label for="number" class="formlabel"><strong>Phone Number:</strong> </label>
+<input type="text" id="number" name="number" size="10" maxlength="20"
+          data-rule-required="true"  data-msg-required="phone number Required" >
+<label for="number" class="error"></label>
+<br/>
+</form>
 
 
-<!-- Add font awesome icons -->
+    <label for="subject">Question</label>
+    <textarea id="subject" name="subject" placeholder="What May We Help You With ?" style="height:200px"></textarea>
+      <button type="submit" formaction=/it-Amethyst/individual-web-project-2/thanks.html>Submit</button>
+
+  </form>
+</div>
+
+
   <p><strong>Our Facebook Page</strong></p>
-<a href="https://www.facebook.com/Cake.Poppin.AR/" class="fa fa-facebook"></a>
-                                                                          <p><strong> Our Twitter</strong></p>                       
-<a href="https://twitter.com/cake_poppin" class="fa fa-twitter"></a>
-                                                               <p><strong>Our Email</strong> </p>
+  
+  <div id="link-container">
+    <a href="https://www.facebook.com/Cake.Poppin.AR/" id="fa fa-facebook"> <img src="assets/img/facebook.png" alt="Facebook" width="55" height="75"> </ </a>
+</div>
+
+  <p><strong> Our Twitter</strong></p>                       
+ 
+ <div id="link-container">
+ <a href="https://twitter.com/cake_poppin"  id="fa fa-twitter"><img src="assets/img/twitter.png" alt="Twitter" width="55" height="75"></ </a>
+</div>
+ 
+  <p><strong>Our Email</strong> </p>
+  
+   <div id="link-container">
+ <a href="cake.poppin.co@gmal"  id="fa fa-google"><img src="assets/img/gmail.jpg" alt="Gmail" width="55" height="75"></ </a>
+</div>
+  
+  
 <a href="cake.poppin.co@gmal" class="fa fa-google"></a>
-                                                  <p><strong> Our Instagram Page</strong><p/>
+
+ <p><strong> Our Instagram Page</strong><p/>
+ 
 <a href="https://www.instagram.com/_cake_poppin_/" class="fa fa-instagram"></a>
+      
+      
+      
+      
+      
        <h2> &copy; 2021 Ciera Prunty</h2>
+      
+      
+      
+      
       
 </body>
 </html> 

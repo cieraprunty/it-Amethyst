@@ -10,13 +10,19 @@ html {
 }
 
 /* ---------------Global Styles----------------- */
-
+body {
+background-color: white;
+ background-image: linear-gradient(white 75%,#F5F7B8 ,yellow);
+}
 
 body {
   margin: 0;
   font-family: 'Lobster', cursive;
 
 }
+
+
+P { text-align: center }
 
 .topnav {
   position: relative;
@@ -55,41 +61,33 @@ body {
   float: right;
 }
 
-
-header h1{
+header h1, h2, h3, h4, h5{
+  color: #BF4588 ;
   text-align:center;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+footer{
+  text-align:center;
+}
+/* Responsive navigation menu (for mobile devices) */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav-right {
+    float: none;
+    display: block;
+  }
+  
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
 
 /* Responsive navigation menu (for mobile devices) */
 @media screen and (max-width: 600px) {
@@ -104,25 +102,95 @@ header h1{
     left: 0;
     transform: none;
   }
+
+#link-container {
+    text-align: center;
+}
+
+<div id="link-container">
+    <a href=""https://www.facebook.com/Cake.Poppin.AR/"" id="link">This is my link!</a>
+</div>
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 55%; /* Full width */
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px; 
+  resize: horizontally; 
 }
 
 
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
 
 
+input[type=submit]:hover {
+ background-color: blue;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
 
 
-/* Responsive navigation menu (for mobile devices) */
-@media screen and (max-width: 600px) {
-  .topnav a, .topnav-right {
-    float: none;
-    display: block;
-  }
-  
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
-  }
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 
+.gallery {
+	background-color: yellow;
+	width: 130px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 315px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 6px;
+}
+
+gallery {
+  background-color: yellow;
+	width: 130px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid #999;
+	height: 315px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 6px;
+}
+
+gallery {
+  background-color: yellow;
+	width: 130px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	border: 5px solid #999;
+	height: 310px;
+	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
+	border-radius: 6px;
+}
+
+.gallery img {
+	margin: 15px;
 }

@@ -1,76 +1,82 @@
-<!DOCTYPE html>
-<html>
-<style>
-* {
-  box-sizing: border-box;
-}
+ <!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Indiviual Web Project</title>
+    <meta name="description" content="About Small Business" />
+    <meta name="author" content="Ciera Prunty" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
 
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
-  text-align: center;
-  padding: 32px;
-}
-
-.row {
-  display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-  -ms-flex: 25%; /* IE10 */
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-  width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    -ms-flex: 100%;
-    flex: 100%;
-    max-width: 100%;
-  }
-</style>
-<body>
-<div class="topnav-centered">
+<!-- Top navigation -->
+<div class="topnav">
+  <!-- Centered link -->
+  <div class="topnav-centered">
     <a href="index.html" class="active">Home</a>
   </div>
-<!-- Header -->
-<div class="header">
-  <h1>Take A Look At Our Work</h1>
-  <p>Here are some photos of all the great sweets we've created.</p>
-</div>
-
-<!-- Photo Grid -->
-
   
-  <div class="column">
-    <img src=" individual-web-project/asseset/IMG_0519.jpg" style="width:100%">
-          <h2> &copy; 2021 Ciera Prunty</h2>
+  <!-- Left-aligned links (default) -->
+  <a href="gallery.html">Gallery</a>
+  <a href="contact.html">Contact</a>
+  
+  <!-- Right-aligned links -->
+  <div class="topnav-right">
+    <a href="about.html">About</a>
   </div>
   
-</body>
+</div>
+<!--Content Below-->
+
+
+<p><a href="index.html">
+<img src="assets/img/Logo.JPG" alt="Logo" width="100" height="132">
+</a></p>
+
+<h1> Some Of Our Amazing work</h1>
+       <!-- Photo Grid -->
+       
+       <section class="gallery">
+  <img src="assets/img/animals.jpg"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/baseball.jpg" style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/blues.jpg"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/eyeball.jpg"   style="width:200px;height:200px;" alt="Mars Perseverance">
+  <img src="assets/img/donjulio.jpg"   style="width:200px;height:200px;" alt="Mars Perseverance"> 
+      <img src="assets/img/sugar.JPG" style="width:200px;height:200px;" alt="Mars Perseverance">
+
+</section>
+
+ <section class="gallery">
+  <img src="assets/img/babys.JPG"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/black.JPG" style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/cars.jpg"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/chocake.jpg"   style="width:200px;height:200px;" alt="Mars Perseverance">
+  <img src="assets/img/chorose.JPG"   style="width:200px;height:200px;" alt="Mars Perseverance">
+      <img src="assets/img/tictok.JPG" style="width:200px;height:200px;" alt="Mars Perseverance">
+
+</section>
+
+ <section class="gallery">
+  <img src="assets/img/dress.JPG"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/pumpkin.JPG" style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/mask.jpg"  style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/red.jpg"   style="width:200px;height:200px;" alt="Mars Perseverance">
+  <img src="assets/img/strawberry.jpg"   style="width:200px;height:200px;" alt="Mars Perseverance"> 
+  <img src="assets/img/babyshark.jpg" style="width:200px;height:200px;" alt="Mars Perseverance">
+      <img src="assets/img/strawberries.JPG" style="width:500px;height:200px;" alt="Mars Perseverance">
+
+</section>
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+<script type="text/javascript" src="assets/js/local-call.js"></script>
+
+
+       <footer>&copy; 2021 Ciera Prunty</footer>
+   
+ </body>
 </html>
