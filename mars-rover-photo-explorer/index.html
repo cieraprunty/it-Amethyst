@@ -1,0 +1,57 @@
+<html lang="en" xml:lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="description" content="JavaScript Calculator">
+    <meta name="keywords" content="JavaScript, HTML, CSS">
+    <meta name="author" content="Ciera Prunty">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="assets/js/local.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/additional-methods.min.js"></script>
+</head>
+    <body>
+        <h1>Mars Rover Photo Explorer</h1>
+        <!-- Start Table-->
+        <table id="table">
+            <tr>
+                <th>Rover</th>
+                <th>Mission Start</th>
+                <th>Mission End</th>
+            </tr>
+          <tr>
+              <td>Curiosity</td>
+              <td>08/06/2012</td>
+              <td>09/28/2019</td>
+          </tr>
+          <tr>
+              <td>Opportunity</td>
+              <td>01/26/2004</td>
+              <td>06/11/2018</td>
+          </tr>
+          <tr>
+              <td>Spirit</td>
+              <td>01/05/2004</td>
+              <td>03/21/2004</td>
+          </tr>
+        </table>
+        <!--End Table-->
+        <!--Start Form-->
+        <h2>Select a rover and a picture date:</h2>
+        <form>
+            <label for="rover" id="rover">Rover:</label>
+            <input type="radio" name="curiosity" id="curiosity"> <label for="curiosity">Curiosity</label> 
+            <input type="radio" name="opportunity" id="opportunity"> <label for="opportunity">Opportunity</label> 
+            <input type="radio" name="spirit" id="spirit"> <label for="spirit">Spirit</label> 
+            <br>
+            <br>
+            <label for="date" id="date">Picture Date:</label>
+            <input type="date" name="calendar">
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </form>
+        <!--End Form-->    
+    </body>
+</html>

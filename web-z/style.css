@@ -1,0 +1,48 @@
+
+body {
+    background: white;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 1.3em;
+}
+
+a {
+    color: #yellow;
+}
+
+b, strong {
+    font-weight: 600;
+}
+
+samp {
+    display: none;
+}
+
+    p{
+        text-align: center;
+    }
+    
+    
+    </style>
+  
+  
+  
+  
+</body>
+</html>
